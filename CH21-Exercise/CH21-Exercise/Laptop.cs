@@ -7,6 +7,7 @@ namespace CH21_Exercise
         public string PowerMode { get; set; }
         public string LockStatus { get; set; }
         public string SecurityType { get; set; }
+        //public string deviceID { get; set; }
 
         public void EnablePowerSaving()
         {
@@ -19,13 +20,15 @@ namespace CH21_Exercise
             Console.WriteLine($"Device is now {LockStatus}");
         }
 
-        public void SetSecurity()
+        public void SetSecurity(string securitySet)
         {
-            Console.WriteLine("Type one of the available security options: Fingerprint Unlock, Face Unlock, Pin, Password");
-            string securitySet = Console.ReadLine();
             if(securitySet.ToLower().Contains("fingerprint") || securitySet.ToLower().Contains("face") || securitySet.ToLower() == "pin" || securitySet.ToLower() == "password")
             {
                 SecurityType = securitySet;
+            }
+            else
+            {
+                throw new ArgumentException("Unexpected Argument: Try; Fingerprint Unlock, Face Unlock, Pin, Password");
             }
         }
 

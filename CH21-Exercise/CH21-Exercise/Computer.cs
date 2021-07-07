@@ -1,12 +1,13 @@
 ﻿using System;
 namespace CH21_Exercise
 {
-    public class Computer
+    public class Computer : AbsractEntity
     {
         public string Processor { get; set; }
         public string Portability { get; set; }
         public string OperatingSystem { get; set; }
         public string PowerStatus { get; set; }
+        //public string deviceID { get; set; }
 
         public void Power(string status)
         {
@@ -22,17 +23,24 @@ namespace CH21_Exercise
                    
         }
 
-        public void RunApplication()
+        public string RunApplication()
         {
-            Console.WriteLine("Application now Running");
+            string message = "Application now running";
+            Console.WriteLine(message);
+
+            return message;
         }
 
-
+        public Computer()
+        {
+            Portability = "Desktop";
+        }
 
         public Computer(string processor, string OS)
         {
             Processor = processor;
             OperatingSystem = OS;
+            Portability = "Desktop";
         }
     }
 }
