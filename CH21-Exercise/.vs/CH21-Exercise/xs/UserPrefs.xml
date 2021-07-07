@@ -1,0 +1,47 @@
+﻿<Properties StartupConfiguration="{C7EE4051-A43A-4F12-B268-2BCCD51D0A4D}|Default">
+  <MonoDevelop.Ide.ItemProperties.Technology-Tests1 FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Technology-Tests1/ComputerTests.cs">
+    <Files>
+      <File FileName="CH21-Exercise/Program.cs" Line="1" Column="1" />
+      <File FileName="CH21-Exercise/Computer.cs" Line="9" Column="16" />
+      <File FileName="CH21-Exercise/Laptop.cs" Line="31" Column="1" />
+      <File FileName="CH21-Exercise/SmartPhone.cs" Line="10" Column="10" />
+      <File FileName="Technology-Tests1/ComputerTests.cs" Line="11" Column="19" />
+      <File FileName="Technology-Tests1/LaptopTests.cs" Line="1" Column="1" />
+      <File FileName="Technology-Tests1/SmartPhoneTests.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CH21-Exercise" expanded="True">
+            <Node name="CH21-Exercise" expanded="True" />
+            <Node name="Technology-Tests1" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="ComputerTests.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>x</Value>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="CH21-Exercise" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>CH21-Tests/Technology-Tests.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CH21-Exercise FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
